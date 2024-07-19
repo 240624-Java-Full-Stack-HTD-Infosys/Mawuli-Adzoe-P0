@@ -1,0 +1,75 @@
+.button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button.create-user {
+    background-color: #28a745; /* Green */
+}
+
+.button.create-user:hover {
+    background-color: #218838;
+}
+
+.button.create-bank-account {
+    background-color: #007bff; /* Blue */
+}
+
+.button.create-bank-account:hover {
+    background-color: #0069d9;
+}
+
+.button.create-transaction {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+}
+
+.button.create-transaction:hover {
+    background-color: #e0a800;
+}
+
+.button.delete-account {
+    background-color: #dc3545; /* Red */
+}
+
+.button.delete-account:hover {
+    background-color: #c82333;
+}
+
+.button.edit-user {
+    background-color: #17a2b8; /* Cyan */
+}
+
+.button.edit-user:hover {
+    background-color: #138496;
+}
+
+.button.update-user {
+    background-color: #28a745; /* Green */
+}
+
+.button.update-user:hover {
+    background-color: #218838;
+}
+
+.button.cancel {
+    background-color: #dc3545; /* Red */
+}
+
+.button.cancel:hover {
+    background-color: #c82333;
+}
+
+.button.view-transactions {
+    background-color: #6c757d; /* Gray */
+    color: white;
+}
+
+.button.view-transactions:hover {
+    background-color: #5a6268;
+}

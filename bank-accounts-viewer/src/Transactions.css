@@ -1,0 +1,25 @@
+.account-card .transaction-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.account-card .transaction-card.deposit {
+    background-color: #d4edda; /* Light green */
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.account-card .transaction-card.withdrawal {
+    background-color: #f8d7da; /* Light red */
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.account-card .transaction-card.transfer {
+    background-color: #d1ecf1; /* Light blue */
+    border-color: #bee5eb;
+    color: #0c5460;
+}

@@ -1,0 +1,2 @@
+What I learned from doing the project: let it blow up. Don't catch errors. Let it bubble up. If it doesn't bubble up and your custom error message in the catch clause is not good enough, the error is suppresed.
+
