@@ -1,5 +1,14 @@
 # Mawuli-Adzoe-P0
 
+## How to run frontend(React.js)
+  - `cd ./bank-accounts-viewer`
+  - `npm install`
+  - `npm start`
+
+## How to run backend(Java Spring Boot)
+  - `cd ./banking-app-cli`
+  - `mvn spring-boot:run`
+
 Two ways to check if this code works: PostMan or the automated tests in BankingAPITest.java
 
 BankingAPITest.java tests that the Banking API works correctly from a user's perspective. 
